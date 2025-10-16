@@ -1,0 +1,64 @@
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+form button,
+form input[type="submit"] {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+  background: #0056b3;
+}
+
+.warning {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  border-radius: 4px;
+  background: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.message-value {
+  background: #fff;
+  margin: 16px 0;
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
